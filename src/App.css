@@ -1,0 +1,77 @@
+body {
+  background-color:#282D35;
+}
+
+.logo {
+  height: 30px;
+  margin-right:7px;
+}
+
+.nav {
+  align-items:center;
+  display:flex;
+  justify-content:space-between;
+  background-color:#21222A;
+  padding: 30px 25px;
+  height:3%;
+}
+
+.nav > h3 , .nav >h4 {
+  margin:0;
+}
+
+.nav > h3 {
+  margin-right:auto;
+  color:#61DAFB;
+  font-weight:700;
+  font-family:Audiowave;
+  font-size:22px;
+}
+
+.nav > h4 {
+  color:#DEEBF8;
+  font-weight:600;
+}
+
+
+.nav-items {
+  list-style:none;
+  display:flex; 
+}
+
+.nav-items > li {
+  
+  padding:10px;
+}
+
+.main-h1 {
+  margin:0;
+  letter-spacing:0.05em;
+  color:#ffffff;
+  font-family:ADLaM Display;
+  pading:40px 30px;
+}
+
+.main-ul {
+  margin-top:46px;
+  color:#ffffff;
+  font-weight:300;
+  max-width:400px;
+}
+
+.main-ul > li {
+  padding-block:10px;
+}
+.main-ul > li::marker {
+  font-size:2rem;
+  color:#61DAFB;
+}
+
+.App-header {
+  background-image: url("react-icon-large.png");
+  background-repeat: no-repeat;
+  background-position: right 75%;
+  margin-left:10px;
+  padding:57px 27px;
+}
+
