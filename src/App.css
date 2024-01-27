@@ -6,7 +6,7 @@ body {
 header {
   display: flex;
   align-items: center;
-  height:65px;
+  height:55px;
   color: white;
   padding: 20px;
   background: linear-gradient(90deg,#672280 1.18%,#A626D3 100%);
@@ -53,7 +53,7 @@ header {
 }
 
 .main {
-  padding: 36px;
+  padding: 20px;
 }
 
 .label {
