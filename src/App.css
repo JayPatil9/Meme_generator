@@ -26,3 +26,37 @@ header {
   font-size: 0.75rem;
   font-weight: 500;
 }
+
+.form {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 17px;
+}
+
+.input {
+  font-family: Karla;
+  border-radius: 5px;
+  text-indent: 5px;
+  border: 1px solid #D4D5D8;
+  height: 35px;
+  width: 100%;
+}
+
+.btn {
+  color:white;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(90deg,#711F8D 1.14%,#A818DA 100%);
+  border-radius: 5px;
+  font-family: Karla;
+  grid-column: 1 / -1;
+}
+
+.main {
+  padding: 36px;
+}
+
+.label {
+  font-family: Karla;
+  margin-bottom: 5px;
+}
