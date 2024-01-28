@@ -14,7 +14,7 @@ const [allMemesData,setAllMemesData] = React.useState(memesData)
 function getMemeImage() {
   const memesArray = allMemesData.data.memes
   const randomNumber = Math.floor(Math.random() + memesArray.length)
-  const url = memesArray[randomNumber].url)
+  const url = memesArray[randomNumber].url
   setMeme(prevMeme => ({
     ...prevMeme,
     randomImage: url
