@@ -46,7 +46,7 @@ export default function Meme() {
     </div>
       <button className="btn" onClick={getMemeImage}>Get a new Meme Image 🖼️</button>
     </div>
-    <img src={require(`${meme.randomImage}`)} className="meme-img" />
+    <img src={meme.randomImage} className="meme-img" />
   </div>
 );
 }
