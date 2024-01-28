@@ -7,7 +7,7 @@ export default function Meme() {
   const [meme,setMeme] = React.useState({
   topText: "",
   bottomText: "",
-  randomImage: ""
+  randomImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLQUQ6g6NjGqj3qncgsJGpxzzRrL_qDAc1qQ&usqp=CAU"
   })
 
   const [allMemesData,setAllMemesData] = React.useState(memesData)
