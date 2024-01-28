@@ -60,3 +60,7 @@ header {
   font-family: Karla;
   margin-bottom: 5px;
 }
+
+.meme-img {
+  max-width: 100%;
+}
