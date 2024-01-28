@@ -3,9 +3,9 @@ import memesData from '../memesData.js'
 
 
 const [meme,setMeme] = React.useState({
-  topText="",
-  bottomText="",
-  randomImage=""
+  topText: "",
+  bottomText: "",
+  randomImage: ""
 })
 
 const [allMemesData,setAllMemesData] = React.useState(memesData)
@@ -17,7 +17,7 @@ function getMemeImage() {
   const url = memesArray[randomNumber].url)
   setMeme(prevMeme => ({
     ...prevMeme,
-    randomImage:url
+    randomImage: url
   }))
   
 }
