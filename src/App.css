@@ -31,6 +31,7 @@ header {
   display: grid;
   grid-template: 40px 40px / 1fr 1fr;
   gap: 17px;
+  margin-bottom: 17px;
 }
 
 .input {
@@ -61,8 +62,13 @@ header {
   margin-bottom: 5px;
 }
 
-.meme-img {
-  max-width: 100%;
+.meme {
+    position: relative;
+}
+
+.meme--image {
+    max-width: 100%;
+    border-radius: 3px;
 }
 
 .meme--text {
